@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <h1>Lista de Compras</h1> <input type="text" id="item" placeholder="Adicionar item"> <button onclick="add()">Adicionar</button> <br><br> 
+    
+    <input type="text" id="posicao" placeholder="N° do item a remover"> <button onclick="remover()">Remover</button> <br><br>
+
+    <input type="text" id="busca" placeholder="pesquisar item ou posição"> <button onclick="buscar()">Buscar</button>
+    
+    <p id="res"></p> 
+    <h3> Itens:</h3> <div id="lista"></div>
+    
+</body>
+</html>
