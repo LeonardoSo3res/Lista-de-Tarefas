@@ -24,4 +24,22 @@ h3{
 
 button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+footer {
+    position: fixed;      
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(171, 221, 221); 
+    color: #9c9898;           
+    text-align: center;   
+    padding: 12px 0;       
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgb(171, 221, 221);
+}
+
+footer strong {
+    color: #9c9898;
 }
